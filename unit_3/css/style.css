@@ -1,0 +1,52 @@
+body {
+	text-align: justify;
+    font-family: Helvetica, sans-serif; 
+}
+ 
+
+h1, p {
+    color: orange;
+}
+
+header {
+	text-align: center;
+}
+nav {
+	padding-top: 40px;
+}
+
+nav a {
+	color: #cccccc;
+	font-style: italic;
+	margin-right: 10px;
+}
+
+img {
+	width: 100%;
+}
+
+main {
+	padding: 30px;
+}
+
+
+#slogan{
+	text-align: justify;
+	font-size: 50px;
+	color: white;
+	padding-left: 40px;
+	padding-top: 40px;
+}
+
+
+.hero-box {
+	height: 338px;
+	background-color: orange;
+	background-size: cover;
+}
+
+
+
+footer {
+	padding: 20px;
+	text-align: center;
