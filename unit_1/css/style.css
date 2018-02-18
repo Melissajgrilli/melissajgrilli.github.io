@@ -6,9 +6,6 @@ nav{
 
 body {
   text-align: justify;
-  background-image:"images/shutterstock_3.jpg";
-  background-size: cover;
-  color: black;
   font-family: Helvetica;
 }
 
@@ -18,4 +15,13 @@ hr {
 
 p {
   font-size: 22px;
+}
+
+#circle {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
 }

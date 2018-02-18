@@ -1,11 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400,700');
+
+
 body {
 	text-align: justify;
-    font-family: Helvetica, sans-serif; 
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 16px;
 }
  
 
-h1, p {
+h1 {
     color: orange;
+    font-size: 2.5em;
+}
+
+h2 {
+	font-size: 2.25em;
+	font-weight: 700;
+}
+
+h3{
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+h4{
+	font-size: 1.25em;
+	font-weight: 300;
 }
 
 header {
@@ -19,6 +40,7 @@ nav a {
 	color: #cccccc;
 	font-style: italic;
 	margin-right: 10px;
+	letter-spacing: 2px;
 }
 
 img {
