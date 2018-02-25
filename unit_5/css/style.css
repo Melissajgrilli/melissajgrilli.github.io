@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400,700');
+
+
+body {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+}
+ 
+
+h1 {
+    font-size: 2.5em;
+    color: white;
+}
+
+h2 {
+	font-size: 2.7em;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+h4{
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+header {
+	text-align: center;
+	background-color: #FFED74;
+}
+nav {
+	background-color: #E8C66A;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+nav a {
+	color: #cccccc;
+	font-size: 25px;
+	font-style: italic;
+	margin-right: 10px;
+	letter-spacing: 2px;
+}
+
+img {
+	width: 100%;
+}
+
+aside {
+	background-color: #FFC675;
+	padding-left: 30px;
+
+}
+
+section {
+	background-color: #E89C6C;
+	padding-left: 30px;
+}
+
+
+
+#logo{
+	max-width: 200px;
+	margin: 0 auto; 
+}
+
+#slogan{
+	text-align: center;
+	font-size: 70px;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#circle {
+      width: 150px;
+      height: 150px;
+      -webkit-border-radius: 75px;
+      -moz-border-radius: 75px;
+      border-radius: 75px;
+      background: orange;
+      
+    }
+
+
+
+.description {
+	padding: 10px 40px 10px 40px;
+}
+
+
+.hero-box {
+	position: relative;
+}
+
+
+
+
+footer {
+	padding: 20px;
+	background-color: #FF957E;
+	text-align: center;
+}

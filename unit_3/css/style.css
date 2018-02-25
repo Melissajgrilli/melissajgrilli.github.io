@@ -66,6 +66,16 @@ main {
 	transform: translate(-50%, -50%);
 }
 
+#circle {
+      width: 150px;
+      height: 150px;
+      -webkit-border-radius: 75px;
+      -moz-border-radius: 75px;
+      border-radius: 75px;
+      background: orange;
+      
+    }
+
 
 .hero-box {
 	position: relative;
