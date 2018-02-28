@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400,700');
+
+
+body {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+}
+ 
+
+h1 {
+    font-size: 2.5em;
+    color: white;
+}
+
+h2 {
+	font-size: 2.7em;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 400;
+}
+
+h4{
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+header {
+	text-align: center;
+}
+nav {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+nav a {
+	color: #cccccc;
+	font-size: 25px;
+	font-style: italic;
+	margin-right: 10px;
+	letter-spacing: 2px;
+}
+
+img {
+	width: 100%;
+}
+
+aside {
+	float: left;
+	margin-left: 40px;
+
+}
+
+
+#wrapper {
+	margin: 0 auto;
+}
+
+#logo{
+	max-width: 200px;
+	margin: 0 auto; 
+}
+
+#slogan{
+	text-align: center;
+	font-size: 70px;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#two {
+	position: relative;
+}
+
+
+#circle {
+      width: 300px;
+      height: 300px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      border-radius: 150px;
+      background: orange;
+      float: left;
+      margin: 40px;
+      text-align: center;
+      
+    }
+
+#three {
+	text-align: center;
+}
+
+
+.description {
+	background-color: orange;
+	padding: 10px 40px 10px 40px;
+	width: 100%;
+	max-width: 960px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.hero-box {
+	position: relative;
+}
+
+
+
+
+footer {
+	padding: 20px;
+	background-color: #eeeeee;
+	text-align: center;
+	clear: both;
+}
