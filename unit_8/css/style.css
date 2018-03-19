@@ -256,3 +256,21 @@ h2 + hr{
 		font-size: .8em;
 	}
 }
+
+@media only screen and (max-width: 590px){
+	#lander{
+		margin:0;
+	}
+	#two{
+		margin:0;
+	}
+	main{
+		margin:0;
+	}
+	footer{
+		margin: 0;
+	}
+	h1{
+		font-size:2.7em;
+	}
+}
