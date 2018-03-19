@@ -238,14 +238,19 @@ footer{
 @media only screen and (max-width: 480px){
 	#hero-box> h1{
 		font-size: 1.2em;
-		line-height: 1em;
+    	line-height: 1.4em;
 	}
 	#hero-box{
-		height: 70px;
-		padding: 4em .1em 3em 1em;
+		height: 250px;
+		padding: 6em 1em 3em 1em;
+		margin: 2em 0;
+	}
+	main{
+		margin: 3% 0;
 	}
 	footer{
 		padding: 3%;
+		margin: 0;
 	}
 }
 }
