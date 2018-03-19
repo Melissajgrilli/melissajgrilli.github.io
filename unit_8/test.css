@@ -1,0 +1,221 @@
+@import url(https://fonts.googleapis.com/css?family=Allerta);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+/*	text-align: center;*/
+	font-family: Allerta, "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 16px;
+	color:#333333;
+}
+h1{
+	font-size: 2.5em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: 300;
+}
+h2{
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: 200;
+}
+p{
+	font-size: 1em;
+	line-height: 1.8em;
+	padding-bottom: 2%;
+}
+header{
+	padding:0 7%;
+}
+
+
+nav{
+	/*margin:auto;*/
+	text-align: center;
+	padding-top: 3%;
+}
+
+/*LoVe HAte*/
+
+nav a:link{
+	font-family: 'Allerta', sans-serif;
+	color:#727272;
+	margin:0 2%;
+	padding-bottom:1%;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+nav a:visited{
+	color: #727272;
+}
+
+nav a:hover{
+	border-bottom: .1% solid #fff;
+}
+
+nav a:active{
+	color:#fff;
+}
+
+a{
+	text-decoration:none;
+	color: #201828;
+}
+
+#logo {
+	max-width: 300px;
+	min-width: 50px;
+	margin: 2em auto ;
+}
+
+img{
+	width:100%;
+}
+.wrapper{
+	margin: 4% 10%;
+/*	background-color: purple;*/
+}
+.one {
+	float: left;
+	width: 440px;
+	padding:2% 0% 0% 8%
+}
+.one>h1{
+	color: orange;
+}
+.one>h3{
+	padding-top: 1.1em;
+	line-height: 1.6em;
+	font-size: 1em;
+}
+.one ul{
+	margin-top: .8em;
+	letter-spacing: .1em;
+	list-style-type: none;
+	line-height: 1.4em;
+	font-size: .9em;
+}
+
+.two {
+	float: right;
+	width: 550px;
+	padding-right: 3%;
+}
+.two img{
+	max-width: 85%;
+	display: block;
+	margin: auto;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:"hello";
+	display: block;
+	clear:both;
+}
+.wrapper2{
+	clear: both;
+	margin: 0% 10%;
+}
+.three{
+	float: right;
+	width: 50%;
+	background-color: #74cbdc;
+	min-height: 11.98em;
+}
+.three> h2{
+	padding-top: 6%;
+	padding-left: 8%;
+	color: white;
+}
+.three p{
+	padding: 4% 5% 8% 8%;
+	color: white;
+}
+.four{
+	float: left;
+	width: 50%;
+	background-color: orange;
+	min-height: 11.98em;
+}
+.four> h2{
+	padding-top: 6%;
+	padding-left: 8%;
+	color: white;
+}
+.four p{
+	padding: 4% 5% 8% 8%;
+	color: white;
+}
+.five{
+	clear: both;
+	background-color: #f1e9e4;
+}
+.five> h2{
+	padding-top: 3%;
+	padding-left: 4%;
+}
+.five p{
+	padding: 2% 5% 4% 4%;
+}
+footer{
+	background-color: orange;
+	color:black;
+	padding:1.5% 0;
+	margin: 0% 10%;
+	clear: both;
+	text-align: center;
+}
+
+@media only screen and (max-width: 1227px){
+	.one{
+		float: none;
+		width: 100%;
+		padding: 2% 5% 0 15%;
+	}
+	.two{
+		float: none;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 598px){
+	h1{
+		font-size: 2.2em;
+	}
+	nav{
+		display: block;
+	}
+	.four{
+		float: none;
+		width: 100%;
+	}
+	.three{
+		float: none;
+		width: 100%;
+	}
+	.two{
+		padding-top: 2%;
+	}
+	.five> h2{
+		padding-top: 6%;
+		padding-left: 6%;
+	}
+	.five p{
+		padding: 5% 5% 8% 8%;
+	}
+	footer{
+		padding: 3%;
+	}
+}

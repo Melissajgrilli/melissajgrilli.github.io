@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Allerta);
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	text-align: center;
+	font-family: Allerta, "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	letter-spacing: 2px;
+}
+
+header{
+	padding:0 200px;
+}
+
+main{
+	height: 57em;
+	margin: 2% 10% 0% 10%;
+}
+
+nav{
+	text-align: center;
+	padding-top: 3%;
+}
+
+/*LoVe HAte*/
+
+nav a:link{
+	font-family: 'Allerta', sans-serif;
+	color:#727272;
+	margin:0 2%;
+	padding-bottom:1%;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+nav a:visited{
+	color: #727272;
+}
+
+nav a:hover{
+	border-bottom: .1% solid #fff;
+}
+
+nav a:active{
+	color:#fff;
+}
+a{
+	text-decoration:none;
+	color: #201828;
+}
+
+main{
+	background: url(assets/shutterstock_463434269_gradient.jpg);
+	background-size:cover;
+	background-position: center;
+}
+
+#logo {
+	max-width: 300px;
+	min-width: 150px;
+	margin: 2em auto ;
+}
+
+img{
+	width:100%;
+/*	height:40px;*/
+}
+
+.contact-title{
+	margin-top: 20px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.contact-title h1{
+	font-size: 32px;
+	line-height: 150px;
+}
+
+.contact-title h2{
+	font-size: 16px;
+}
+
+form{
+	margin-top: 50px;
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid white;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+input{
+	height: 55px;
+}
+
+form .submit{
+	background: white;
+	border-color: transparent;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px; 
+}
+
+form .sumbit:hover{
+	background-color: orange;
+	cursor: pointer;
+}
+#contact-form{
+	padding-bottom: 30px;
+}
+
+footer{
+	margin: 0% 10%;
+	background-color: orange;
+	color:black;
+	padding:1.5% 0;
+}
+@media only screen and (max-width: 800px){
+	main{
+		height: 40em;
+	}
+}
+@media only screen and (max-width: 778px){
+	.form-control{
+		width: 400px;
+		font-size: 17px;
+		letter-spacing: 1.5px;
+	}
+	footer{
+		padding: 3%;
+	}
+}
+@media only screen and (max-width: 480px){
+	.form-control{
+		width: 150px;
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+	footer{
+		padding: 3%;
+	}
+}
