@@ -16,7 +16,8 @@ body{
 }
 
 header{
-	padding:0 200px;
+	width: -webkit-max-content;
+	margin: auto;
 }
 
 nav{
@@ -179,9 +180,9 @@ h2 + hr{
 }
 
 #logo {
-	max-width: 300px;
+		max-width: 300px;
 	min-width: 150px;
-	margin: 2em auto ;
+	margin: 2em auto;
 }
 
 #lander{

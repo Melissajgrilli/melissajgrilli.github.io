@@ -15,7 +15,8 @@ body{
 }
 
 header{
-	padding:0 200px;
+	width: -webkit-max-content;
+	margin: auto;
 }
 
 main{
@@ -66,7 +67,7 @@ main{
 #logo {
 	max-width: 300px;
 	min-width: 150px;
-	margin: 2em auto ;
+	margin: 2em auto;
 }
 
 img{
@@ -124,6 +125,9 @@ form .sumbit:hover{
 }
 #contact-form{
 	padding-bottom: 30px;
+	max-width: 600px;
+	margin: auto;
+	padding: 2em;
 }
 
 footer{
@@ -160,4 +164,7 @@ footer{
 		padding: 3%;
 		margin: 0;
 	}
+	form .submit{
+	border-color: white;
+	color: orange;
 }

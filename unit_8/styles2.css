@@ -24,7 +24,8 @@ h2{
 	letter-spacing: .3em;
 }
 header{
-	padding:0 200px;
+	width: -webkit-max-content;
+	margin: auto;
 }
 
 nav{
