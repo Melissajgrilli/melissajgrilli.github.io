@@ -156,6 +156,11 @@ footer{
 		width: 250px;
 		font-size: 14px;
 		letter-spacing: 1px;
+		background: white;
+		border-bottom: none;
+	}
+	input[type=submit] {
+		color: black;
 	}
 	main{
 		margin: 2% 0 0 0;
