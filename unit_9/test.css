@@ -32,7 +32,9 @@ p{
 	padding-bottom: 2%;
 }
 header{
-	padding:0 7%;
+	width: 100%;
+	max-width: 338px;
+	margin: 0 auto;
 }
 
 

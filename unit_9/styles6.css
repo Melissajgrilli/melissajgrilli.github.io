@@ -15,10 +15,10 @@ body{
 }
 
 header{
-	width: -webkit-max-content;
-	margin: auto;
+	width: 100%;
+	max-width: 338px;
+	margin: 0 auto;
 }
-
 main{
 	height: 57em;
 	margin: 2% 10% 0% 10%;

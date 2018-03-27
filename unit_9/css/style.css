@@ -16,8 +16,9 @@ body{
 }
 
 header{
-	width: -webkit-max-content;
-	margin: auto;
+	width: 100%;
+	max-width: 338px;
+	margin: 0 auto;
 }
 
 nav{
